@@ -90,6 +90,7 @@ function App() {
               disabled={tryButton}
             >
               &#x21BA;
+              A
             </button>
 
             <br />
