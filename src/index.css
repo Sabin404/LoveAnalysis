@@ -16,6 +16,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+input{
+  background-color: #0f0f0f;
+  color: white;
+  font-weight: bolder;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
