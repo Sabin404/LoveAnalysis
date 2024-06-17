@@ -48,13 +48,13 @@ function App() {
 
   return (
     <>
-      <div className="bg-white text-black min-h-screen flex items-center justify-center items-center">
+      <div className="bg-white text-black min-h-screen flex items-center justify-center">
         <div className="w-full max-w-md p-8 space-y-6">
           <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            <span className="text-red-500">Maya ko Jotish</span> - Love Analysis
+            <span className="text-red-500">Maya ko Jotish</span> - Love Analyze
           </h1>
           <div className="space-y-4">
-            <input
+            <input type="text"
               className=" text-2xl text-center w-full p-3 border border-gray-300 rounded-lg text-white "
               placeholder="Enter Your Name" onChange={(e) => { setValue(e.target.value) }}
             />
@@ -74,7 +74,7 @@ function App() {
                 />
               </svg>
             </div>
-            <input
+            <input type="text"
               className=" text-white w-full p-3 border border-gray-300 rounded-lg text-2xl text-center"
               placeholder="Enter Your Partner's Name" onChange={(e) => { setValue1(e.target.value) }}
             />
